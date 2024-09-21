@@ -1,0 +1,57 @@
+#2. Clases de Formas Geométricas
+#o Define una clase base Forma con un método area(). Luego,
+#crea subclases Rectangulo, Circulo, y Triangulo que
+#implementen el método area() de manera específica. Usa
+#polimorfismo para crear una lista de formas y calcular el área
+#de cada una.
+
+class Forma:
+     def __init_(self,b,a):
+      self.b=b
+      self.a=a
+      BaseyAltura=Forma(6,4)
+      
+
+
+
+     @classmethod
+     def Area(cls,b,a):
+        area=(b*a)
+        return f"El area se la forma geometrica es {area}"
+     
+
+     
+
+
+class Rectangulo():
+     
+ print("***Rectangulo***")
+ rectangulo1=Forma.Area(6,8)
+ rectangulo2=Forma.Area(3,8)
+ print(rectangulo1)
+ print(rectangulo2)
+ print("___________________________________________")
+
+class Triangulo():
+   print("***Triangulo***")
+   triangulo1=Forma.Area(4,8)
+   triangulo2=Forma.Area(3,6)
+   print(triangulo1)
+   print(triangulo2)
+   print("___________________________________________")
+class circulo():
+   print("***Circulo***")
+   circulo1=Forma.Area(5,10)
+   circulo2=Forma.Area(3,8)
+   print(circulo1)
+   print(circulo2)
+   print("___________________________________________")
+
+
+
+   
+
+   
+
+
+     
